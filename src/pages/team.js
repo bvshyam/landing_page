@@ -17,13 +17,6 @@ export default (() => {
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Components.BurgerMenu>
-			<Override slot="menu">
-				<Override slot="link-contact">
-					Conltact
-				</Override>
-			</Override>
-		</Components.BurgerMenu>
 		<Section
 			margin="0 0 0 0"
 			padding="16px 0px 16px 0px"
